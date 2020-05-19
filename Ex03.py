@@ -11,6 +11,7 @@ prize3=[9,4,5,8,6,3,5,6]
 input_string = input("輸入你的號碼:")
 number  = input_string.split()
 number = [ int(i) for i in number ]
+count=0
 count1=0
 count2=0
 count3=0
@@ -50,3 +51,5 @@ elif count== 4:
     print(1000)
 elif count== 3:
     print(200)
+else:
+    print(0)
