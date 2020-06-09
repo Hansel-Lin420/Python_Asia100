@@ -8,5 +8,5 @@ Created on Sun May 17 16:17:50 2020
 input_str=input();
 reverse_str = ''
 for i in input_str:
-    reverse_str = i + reverse_str 
+    reverse_str = i + reverse_str
 print(reverse_str)
